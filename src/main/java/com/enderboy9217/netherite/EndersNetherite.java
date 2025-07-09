@@ -1,12 +1,13 @@
-package com.enderboy9217.template;
+package com.enderboy9217.netherite;
 
+import com.enderboy9217.netherite.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class EndersTemplate implements ModInitializer {
-	public static final String MOD_ID = "enders-template";
+public class EndersNetherite implements ModInitializer {
+	public static final String MOD_ID = "enders-netherite";
 
 	// This logger is used to write text to the console and the log file.
 	// It is considered best practice to use your mod id as the logger's name.
@@ -18,7 +19,8 @@ public class EndersTemplate implements ModInitializer {
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
+		ModItems.registerModItems();
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("Ender's Netherite has loaded!");
 	}
 }

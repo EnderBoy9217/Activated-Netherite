@@ -1,9 +1,9 @@
 {
 	"required": true,
-	"package": "com.enderboy9217.template.mixin",
+	"package": "com.enderboy9217.netherite.mixin",
 	"compatibilityLevel": "JAVA_17",
 	"mixins": [
-		"ExampleMixin"
+		"SmithingTableMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

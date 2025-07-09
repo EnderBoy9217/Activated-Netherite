@@ -1,0 +1,5 @@
+{
+  "upgrade.minecraft.netherite_upgrade": "Deactivated Netherite Upgrade",
+  "item.minecraft.smithing_template.netherite_upgrade.applies_to": "Must Be Activated",
+  "item.minecraft.smithing_template.netherite_upgrade.ingredients": "Craft with Nether Star"
+}
