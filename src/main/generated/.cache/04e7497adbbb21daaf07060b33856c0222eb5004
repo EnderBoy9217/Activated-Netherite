@@ -1,3 +1,5 @@
-// 1.20.1	2025-07-08T19:29:40.895729	Activated Netherite/Recipes
+// 1.20.1	2025-07-09T10:08:36.637421	Activated Netherite/Recipes
 37643ecd4cca1d7974604ff514abfee473bd2eb0 data/enders-netherite/recipes/activated_netherite_upgrade_smithing_template.json
 b865e4db1b25fc7745607d77900e125ec7eb0da0 data/enders-netherite/advancements/recipes/misc/activated_netherite_upgrade_smithing_template.json
+ec011bdb88efd81b4c77da49b13c96e9cd256de3 data/enders-netherite/recipes/activated_netherite_upgrade_smithing_template_duplicate.json
+b9f09d9f29eb410849c6b7e5c578fa90cc5afe2a data/enders-netherite/advancements/recipes/misc/activated_netherite_upgrade_smithing_template_duplicate.json

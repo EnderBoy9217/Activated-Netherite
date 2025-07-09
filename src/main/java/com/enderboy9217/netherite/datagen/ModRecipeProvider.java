@@ -30,5 +30,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .offerTo(consumer, new Identifier(getRecipeName(ModItems.ACTIVATED_NETHERITE_UPGRADE)));
 
 
+        ShapelessRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.ACTIVATED_NETHERITE_UPGRADE, 2)
+                .input(Ingredient.ofItems(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE))
+                .input(Ingredient.ofItems(ModItems.ACTIVATED_NETHERITE_UPGRADE))
+                .criterion(hasItem(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE), conditionsFromItem(Items.NETHERITE_UPGRADE_SMITHING_TEMPLATE))
+                .offerTo(consumer, new Identifier(getRecipeName(ModItems.ACTIVATED_NETHERITE_UPGRADE) + "_duplicate"));
+
     }
 }
